@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdbc_1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>lib/mysql-connector-java-5.1.37-bin.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/JDBC/3-%E8%B5%84%E6%96%99/2-%E9%A9%B1%E5%8A%A8/01-MySQL%E9%A9%B1%E5%8A%A8/mysql-connector-java-5.1.37-bin.jar</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
