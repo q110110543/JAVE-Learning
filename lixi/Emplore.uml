@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_3qMhkPMQEemuGp62NNiS-w" name="lixi">
+  <packagedElement xmi:type="uml:Package" xmi:id="_3qMhkfMQEemuGp62NNiS-w" name="com">
+    <packagedElement xmi:type="uml:Package" xmi:id="_3qMhkvMQEemuGp62NNiS-w" name="shuaishuaide">
+      <packagedElement xmi:type="uml:Package" xmi:id="_3qMhk_MQEemuGp62NNiS-w" name="Reflect">
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_3qMhlPMQEemuGp62NNiS-w">
+          <ownedBehavior xmi:type="uml:Interaction" xmi:id="_3qMhlfMQEemuGp62NNiS-w">
+            <ownedAttribute xmi:id="_3qMhlvMQEemuGp62NNiS-w" name="property" type="_3qMhnPMQEemuGp62NNiS-w"/>
+            <ownedConnector xmi:id="_3qMhl_MQEemuGp62NNiS-w">
+              <end xmi:id="_3qMhmPMQEemuGp62NNiS-w" role="_3qMhlvMQEemuGp62NNiS-w" partWithPort="_3qMhlvMQEemuGp62NNiS-w"/>
+            </ownedConnector>
+            <lifeline xmi:id="_3qMhmfMQEemuGp62NNiS-w" name="self" represents="_3qMhlvMQEemuGp62NNiS-w" coveredBy="_3qMhmvMQEemuGp62NNiS-w _3qMhm_MQEemuGp62NNiS-w"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_3qMhmvMQEemuGp62NNiS-w" name="Emplore( )" covered="_3qMhmfMQEemuGp62NNiS-w"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_3qMhm_MQEemuGp62NNiS-w" name="work( )" covered="_3qMhmfMQEemuGp62NNiS-w"/>
+          </ownedBehavior>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3qMhnPMQEemuGp62NNiS-w" name="Emplore"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
